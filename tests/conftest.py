@@ -9,7 +9,7 @@ def driver():
     service = Service(gecko_driver_path)
 
     options = webdriver.FirefoxOptions()
-    # Если хотите запускать без GUI (headless), раскомментируйте:
+    # запускать без гуя:
     # options.add_argument("--headless")
 
     driver = webdriver.Firefox(service=service, options=options)
