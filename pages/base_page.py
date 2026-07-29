@@ -28,7 +28,7 @@ class BasePage:
         """Очистить поле и ввести текст."""
         element = self.find_element(locator)
         element.clear()
-        element.send_keys(text)   # ← эта строка у вас отсутствовала
+        element.send_keys(text)   
 
     def get_text(self, locator):
         """Получить текст элемента."""
